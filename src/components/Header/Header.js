@@ -8,7 +8,9 @@ const Header = () => {
              <nav style={{display:'flex', justifyContent:'center'}}>
                  <CustomLink  to='/'>Home</CustomLink>
                  <CustomLink to='/about'>About</CustomLink>
-                 <CustomLink to='/service'>Service</CustomLink>           
+                 <CustomLink to='/service'>Service</CustomLink>       
+                 <CustomLink to='/post'>post</CustomLink>       
+                         
              </nav>
         </div>
     );
